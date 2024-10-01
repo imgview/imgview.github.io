@@ -1,0 +1,288 @@
+    body, html { 
+      top: 0; 
+      padding: 0; 
+      margin-top -7px; 
+      text-align: center; 
+      background-color: #1e2129; 
+      color: gray; 
+      width: 100%; 
+      display: block; 
+      align-item: center;
+      height: 48%; 
+      z-index: 9999; 
+      pointer-events: block; 
+    }
+
+  img {
+    image-rendering: optimizeSpeed;
+  }
+
+.gd { 
+    border-radius: 100%; 
+}
+
+  a { 
+    display: none; 
+}
+
+img { 
+  visibility: hiddden; 
+}
+
+iframe { 
+    display: none; 
+    
+}
+ 
+span { 
+    visibility: hidden; 
+}
+
+.palak { 
+    visibility: visible; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#scroll {
+  position: fixed;
+  height: 6px; 
+  bottom: 0; 
+  background-image: linear-gradient(120deg, #8A2387, #E94057, #F27121);
+  width: 0;
+  transition: width 0s ease;
+}
+
+    input.put::selection {
+      background-color: black; 
+      color: white; 
+    }
+ l
+
+#image-container { 
+     max-width: 100%; 
+     height: auto; 
+     margin-top: -30px; 
+     
+    }
+ #image-container img { 
+      top: -30px; 
+      display: block; 
+      margin-right: -9px; 
+      padding: -5;
+      margin-top: 0px; 
+      width: 100%; 
+      height 100%; 
+      object-fit: cover; 
+      pointer-events: nnone; 
+      padding-right: -9vmin; 
+      visibility: visible; 
+    }
+
+        nav {
+            display: flex;
+            align-items: center;
+            background-color: #555555;
+            margin-left: 5px; 
+            height: 50px; 
+            border: 2px solid #333333; 
+            border-radius: 8px; 
+            max-width: 98%; 
+            margin-top: -10px; 
+            margin-bottom: 0px; 
+            padding: 0; 
+        }
+
+        .logo {
+            width: 35px;
+            height: 35px;
+            border: 2px solid black; 
+            border-radius: 100%; 
+            margin-right: 0px;
+            margin-left: 3%; 
+            visibility: visible; 
+        }
+
+        .put {
+            flex: 1;
+            height: 40px; 
+            border: 2px solid #333333; 
+            font-size: 20px; 
+            border-radius: 20px;
+            background-color: #9933FF;
+            color: white;
+            padding: 10px; 
+            box-sizing: border-box;
+            width: 40px; 
+            margin-right: 5px; 
+            padding-right: 100px; 
+            margin-left: 5px;  
+        }
+
+  #loading-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none; 
+        color: white;
+        font-size: 24px;
+        display: none; 
+      }
+
+
+.tombol {
+  box-shadow: 0px 0px 15px 10px red; 
+  -webkit-box-shadow: 0px 0px 10px 5px red; 
+  -moz-box-shadow: 0px 0px 15px 10px red; 
+ text-align: center; 
+ padding: px; 
+ width: 90px; 
+ height: 50px; 
+ padding-top: ; 
+ padding-bottom: 5%; 
+ font-size: 40px; 
+ color: white; 
+ background-color: black; 
+ border: none; 
+ border-radius: 5px; 
+ text-align: center; 
+ margin-top: 180px; 
+ transition: background-color: 0s ease; 
+ margin-bottom: 0%; 
+}
+
+.next { 
+  box-shadow: 0px 0px 15px 10px blue; 
+ -webkit-box-shadow: 0px 0px 10px 5px blue; 
+ -moz-box-shadow: 0px 0px 15px 10px blue; 
+ text-align: center; 
+ padding: 5px; 
+ width: 100px; 
+ height: 45px; 
+ padding-top: 5px; 
+ padding-bottom: 5%; 
+ font-size: 30px; 
+ color: white; 
+ background-color: black; 
+ border: none; 
+ border-radius: 5px; 
+ text-align: center; 
+ margin-top: 70px; 
+ margin-bottom: 40%; 
+}
+
+
+.put:focus {
+  font-size: 20px; 
+  background-color: #9933FF; 
+  color: white; 
+  padding-left: 10px; 
+  padding-right: 50px; 
+  margin-top: 10px: 
+  padding-top: 66px; 
+}
+
+.put::placeholder {
+  text-align: left;
+  padding-left: 10px; 
+  color: black; 
+  padding-right: 0px; 
+  font-size: 20px; 
+  margin-top: 6px; 
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  left: 0; 
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white; 
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg { 
+     width: 60px; 
+     height: 60px; 
+     background-color: transparent; 
+     pointer-events: none; 
+     visibility: visible; 
+}
+
+.view { 
+       width: 100%; 
+       height: 50%; 
+       margin-top: 20%; 
+       margin-right: 30%; 
+}
+
+.nomor { 
+    border: 5px black; 
+    width: 15%; 
+    padding: -5px; 
+    border-radius: 5px; 
+    background-color: gray; 
+    color: white; 
+    font-size: 25px; 
+    margin-top: 140px; 
+    display: block; 
+    margin-left: 138px; 
+    margin-right: 142px; 
+    margin-bottom: 0px;
+    visibility: visible;  
+}
+
+table.scroll {
+    width: 90%; /* Optional */
+    margin-left: 15px; 
+    margin-top: 0px; 
+    border-collapse: collapse;
+    
+    border-spacing: 0;
+    border: 2px solid black;
+}
+
+img { 
+    display: block; 
+    width: 100%; 
+}
+
+table.scroll tbody,
+table.scroll thead { display: block; }
+
+thead tr th { 
+    height: 80px;
+    line-height: 80px;
+    /*text-align: left;*/
+}
+
+table.scroll tbody {
+    height: 550px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+tbody { border-top: 0px solid black; }
+
+ a { 
+   visibility: hidden; 
+} 
+
