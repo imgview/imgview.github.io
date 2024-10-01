@@ -244,8 +244,7 @@ span {
     font-size: 25px; 
     margin-top: 140px; 
     display: block; 
-    margin-left: 138px; 
-    margin-right: 142px; 
+    margin: 0 auto;
     margin-bottom: 0px;
     visibility: visible;  
 }
